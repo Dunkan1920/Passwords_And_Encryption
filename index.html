@@ -2,7 +2,7 @@
 <html lang=es>
 	<head>
 		<title>Contrase&#241as y Encriptaci&#243n</title>
-		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" type="x-icon" href="icon.png">
 		<link rel="stylesheet" type="text/css" href="Reset-Style.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="Passwords-Encryption-Style.css" media="screen">
@@ -21,7 +21,7 @@
 				</nav>
 			</div>
 			<div id= "headerMain-name">
-				<h3 id="tituloh3">Programaci&#243n 6°E</h3>
+				<h3>Programaci&#243n 6°E</h3>
 				<img src= "IPET 247.png"></img>
 			</div>
 		</header>
@@ -74,7 +74,7 @@
 			</div><br>
 			<p>Bastante aceptable, son bastantes reglas que se centran en que tú tengas el control, pero ¿Qué son los datos sensibles? ¿Por qué no se pueden recolectar? Es aquí donde hay que dejar claro algo.</p>
 			<p>Existen 2 tipos de datos diferenciados por la ley de Proteccion De Los Datos Personales Ley 25.326; los datos personales y los datos sensibles.</p><br><br>
-			<div class="parentDiv-Space_Evenly">
+			<div class="parentDiv">
 				<div id="definicionDatosDiv">
 					<h3>Datos Personales</h3><br>
 					<p>Los datos personales son aquella información sobre personas jurídicas o físicas que permite identificarlas directa o indirectamente, esa información pueden ser datos como nombre, apellido, número de documento, domicilio, etc. También incluyen información financiera sobre ti, pueden ser detalles de cuentas bancarias para transacciones, los métodos de pago que tengas a tu nombre, registros de créditos y pagos; pueden ser datos de salud, por ejemplo, nuestro historial médico, seguros de salud, resultados de exámenes médicos; incluso llegando a datos de comportamiento, tales como tu historial de navegación web, datos de tu ubicación geográfica y preferencias de compra. Y muchas, <strong>muchas</strong> cosas más.</p><br><br>
@@ -177,7 +177,7 @@
 					<p>Es MUY importante no incluir datos personales en tu contraseña, cosas como tu nombre, el de una mascota o amigo, fechas de nacimiento, el nombre del sitio o de tu usuario, etcétera, son predecibles y algunos se pueden encontrar en las redes de manera pública.</p>
 					</ul>
 				</div>
-				<div id="explicacionPassDiv"></div>
+				<div id="explicacionPassDiv"><img src="ejemploPassword.jpg"></img></div>
 			</div><br>
 			<p>Algunas fuentes también recomiendan cambiar tu contraseña cada 3 meses, sin embargo, esto puede llegar a ser contraproductivo ya que mientras más contraseñas originales crees, es probable que se empiecen a simplificar y pierdan efectividad, ni hablar de lo que es intentar recordar tu contraseña actual para cada sitio y no confundirlas entre ellas o con versiones anteriores. Actualmente sólo se recomienda cambiar tu contraseña después de actividad sospechosa en tu cuenta o una notificación del sitio sobre un posible peligro.</p>
 			<p>Además de todo esto, siempre asegurate de estar en un sitio confiable antes de ingresar tu contraseña o algún dato personal, lee con cuidado cada link que te envién y mantén el cursor de tu mouse por unos momentos sobre el link antes de hacer click así aparece la dirección real a la que te envía (La encontrarás en la esquina inferior izquierda de tu pantalla) para evitar que te redireccionen a páginas sospechosas. Tampoco bajes tu guardia porque el link lo envió una persona en la que sí confías ya que su cuenta podría haber sido hackeada y te están intentando engañar.</p><br>
@@ -201,7 +201,7 @@
 						<li>Cifrado Atbash: Menos común, pero también muy viejo. Consiste en invertir el abecedario y escribir el mensaje: PAYASO KZBZHL.</li>
 					<ul>
 				</div>
-				<div class="explicacionEncrDiv" id="cifradosSustImg"></div>
+				<div class="explicacionEncrDiv"><img src="ejemplosSustitucion.jpg"></img></div>
 			</div>
 			<div class="parentDiv-Space_Evenly">
 				<div class="cifradosFuncionamiento"><br>
@@ -211,17 +211,17 @@
 						<li>Transposición columnar simple: Se elige una palabra clave, cada letra se vuelve el encabezado de una tabla, entonces el mensaje se escribe dentro de la tabla y finalmente se escriben todas las columnas seguidas según el orden del abecedario de las letras de la clave.</li>
 					<ul>
 				</div>
-				<div class="explicacionEncrDiv" id="cifradosTransImg"></div>
+				<div class="explicacionEncrDiv"><img src="ejemplosTransposicion.jpg"></img></div>
 			</div>
 			<div class="parentDiv-Space_Evenly">
 				<div class="cifradosFuncionamiento"><br>
 					<h3>Algoritmos de números:<br>Son los cifrados en los que primero hay que transformar el mensaje en números, utilizando, por ejemplo, la tabla ASCII. Así se le pueden aplicar distintas fórmulas.</h3><br><br>
 					<ul>
 						<li>RSA (Rivest, Shamir, Adleman): Este cifrado que gana su nombre de sus creadores consiste en elegir 2 números primos para entonces multiplicarlos, el resultado se mantiene en secreto entre el emisor y receptor para utilizarlo como base para las claves. Hay una serie de formulas complejas públicas que se utilizan para cifrar, pero el descifrado se hace con otras formulas privadas, que en conjunto con la clave devuelven el mensaje original.</li><br>
-						<li>Típicamente estos cifrados resultan en códigos de caracteres aparentemente aleatorios muy, muy extensos, demasiado para que una persona lo cifre o descifre manualmente. Es por esto que las empresas los utilizan, con sus equipos pueden cifrarlos fácilmente y se aseguran de que no cualquiera pueda enterarse del contenido real.</p>
+						<li class="resumible">Típicamente estos cifrados resultan en códigos de caracteres aparentemente aleatorios muy, muy extensos, demasiado para que una persona lo cifre o descifre manualmente. Es por esto que las empresas los utilizan, con sus equipos pueden cifrarlos fácilmente y se aseguran de que no cualquiera pueda enterarse del contenido real.</li>
 					</ul>
 				</div>
-				<div class="explicacionEncrDiv" id="cifradosAlgNumImg"></div>
+				<div class="explicacionEncrDiv"><img src="ejemploAlgoritmoNumerico.jpg"></img></div>
 			</div><br><br>
 			<p>Las empresas hacen lo que se llama cifrado de extremo a extremo, lo que significa que el único momento en el que la información es visible es en tu pantalla. Incluso dentro del servidor de la empresa, los datos están cifrados y no los pueden leer ni los empleados, ni los jefes o cualquier otra persona que acceda al servidor. Un ejemplo de esto es WhatsApp, donde todos y cada uno de tus mensajes son privados.</p><br>
 			<p>Los cifrados que se encuentran actualmente en uso por una empresa se mantienen en secreto, ya que si se explica su funcionamiento se vuelve mucho más vulnerable a los ataques. La ciberseguridad de tus datos es una guerra constante entre los sitios legítimos que utilizas a diario y los criminales que constantemente intentan aprovecharse de tu información. Nunca está de más saber cómo funcionan las tecnologías con las que interactuas a diario y ahora mismo, hemos compartido todo lo que queríamos.</p>
